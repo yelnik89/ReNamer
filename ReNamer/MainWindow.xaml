@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="447" Width="649">
     <Grid>
-
+        <Button x:Name="SelectFile" Content="Выбрать файл" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Width="130" Click="SelectFile_Click" Height="50"/>
+        <TextBox x:Name="OriginName" HorizontalAlignment="Left" Height="23" Margin="80,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <Label x:Name="NameLabel" Content="Имя" HorizontalAlignment="Left" Margin="15,132,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ReName" Content="Переименовать" HorizontalAlignment="Left" Margin="425,112,0,0" VerticalAlignment="Top" Width="181" Height="162" Click="ReName_Click"/>
+        <TextBox x:Name="Name2" HorizontalAlignment="Left" Height="23" Margin="80,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBox x:Name="Name3" HorizontalAlignment="Left" Height="23" Margin="80,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBox x:Name="Name4" HorizontalAlignment="Left" Height="23" Margin="80,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBox x:Name="Name5" HorizontalAlignment="Left" Height="23" Margin="80,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
+        <TextBox x:Name="Name6" HorizontalAlignment="Left" Height="23" Margin="80,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240"/>
     </Grid>
 </Window>
